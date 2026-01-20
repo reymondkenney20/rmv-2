@@ -1,0 +1,70 @@
+{
+  "version": "2.0.0",
+  "description": "Registry of available RNA motif databases",
+  "last_updated": "2025-01-04",
+  
+  "motif_files": {
+    "HL": {
+      "file": "hl_4.5.json",
+      "name": "Hairpin Loops",
+      "description": "Hairpin loop motifs from RNA 3D Motif Atlas",
+      "version": "4.5",
+      "source": "RNA 3D Motif Atlas",
+      "motif_count": 100
+    },
+    "IL": {
+      "file": "il_4.5.json",
+      "name": "Internal Loops",
+      "description": "Internal loop motifs from RNA 3D Motif Atlas",
+      "version": "4.5",
+      "source": "RNA 3D Motif Atlas",
+      "motif_count": 200
+    },
+    "J3": {
+      "file": "j3_4.5.json",
+      "name": "3-Way Junctions",
+      "description": "3-way junction motifs from RNA 3D Motif Atlas",
+      "version": "4.5",
+      "source": "RNA 3D Motif Atlas",
+      "motif_count": 80
+    },
+    "J4": {
+      "file": "j4_4.5.json",
+      "name": "4-Way Junctions",
+      "description": "4-way junction motifs from RNA 3D Motif Atlas",
+      "version": "4.5",
+      "source": "RNA 3D Motif Atlas",
+      "motif_count": 50
+    },
+    "J5": {
+      "file": "j5_4.5.json",
+      "name": "5-Way Junctions",
+      "description": "5-way junction motifs from RNA 3D Motif Atlas",
+      "version": "4.5",
+      "source": "RNA 3D Motif Atlas",
+      "motif_count": 30
+    },
+    "J6": {
+      "file": "j6_4.5.json",
+      "name": "6-Way Junctions",
+      "description": "6-way junction motifs from RNA 3D Motif Atlas",
+      "version": "4.5",
+      "source": "RNA 3D Motif Atlas",
+      "motif_count": 15
+    },
+    "J7": {
+      "file": "j7_4.5.json",
+      "name": "7-Way Junctions",
+      "description": "7-way junction motifs from RNA 3D Motif Atlas",
+      "version": "4.5",
+      "source": "RNA 3D Motif Atlas",
+      "motif_count": 8
+    }
+  },
+
+  "pdb_index": {
+    "auto_generated": true,
+    "auto_generate_on_startup": true,
+    "notes": "PDB index is automatically generated when plugin loads by scanning all motif files and extracting PDB IDs"
+  }
+}
